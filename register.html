@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudentHub Registration</title>
+</head>
+
+<body>
+
+<center>
+
+<h1>StudentHub Portal</h1>
+<h2>Register Your Details</h2>
+
+<hr width="70%">
+
+<form action="login.html">
+
+<table cellpadding="10">
+
+<tr>
+    <td rowspan="12" align="center">
+
+        <fieldset>
+            <legend>Profile Photo</legend>
+
+            <input type="file" accept="image/*">
+
+        </fieldset>
+
+    </td>
+
+    <td>Full Name</td>
+    <td><input type="text" placeholder="Enter Full Name" required></td>
+</tr>
+
+<tr>
+    <td>Email</td>
+    <td><input type="email" placeholder="Enter Email" required></td>
+</tr>
+
+<tr>
+    <td>Mobile Number</td>
+    <td><input type="tel" placeholder="Enter Mobile Number" required></td>
+</tr>
+
+<tr>
+    <td>Date of Birth</td>
+    <td><input type="date"></td>
+</tr>
+
+<tr>
+    <td>Gender</td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>Branch</td>
+    <td>
+        <select>
+            <option>Select Branch</option>
+            <option>Computer Engineering</option>
+            <option>Information Technology</option>
+            <option>Computer Science</option>
+            <option>Electronics & Communication</option>
+            <option>Mechanical Engineering</option>
+            <option>Civil Engineering</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Semester</td>
+    <td>
+        <select>
+            <option>Select Semester</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Enrollment Number</td>
+    <td><input type="text" placeholder="25CE086"></td>
+</tr>
+
+<tr>
+    <td>College Name</td>
+    <td><input type="text" placeholder="CHARUSAT"></td>
+</tr>
+
+<tr>
+    <td>Password</td>
+    <td><input type="password" placeholder="Enter Password"></td>
+</tr>
+
+<tr>
+    <td>Confirm Password</td>
+    <td><input type="password" placeholder="Confirm Password"></td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+
+       <form action="login.html" method="get">
+
+    <!-- All your input fields -->
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+</form>
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+<p>
+Already have an account?
+<a href="login.html">Login Here</a>
+</p>
+
+</center>
+
+</body>
+</html>
