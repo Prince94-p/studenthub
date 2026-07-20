@@ -1,46 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudentHub Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
+
+<div class="container">
+
+<!-- Sidebar -->
 
 <div class="sidebar">
 
     <div class="profile">
-        Profile
+        <div class="circle">Profile</div>
     </div>
 
-    <a href="dashboard.html">Dashboard</a>
-    <a href="timetable.html">Timetable</a>
-    <a href="attendance.html">Attendance</a>
-    <a href="subjects.html">Subjects</a>
-    <a href="result.html">Result</a>
-    <a href="fee.html">Fees</a>
-    <a href="event.html">Events</a>
-    <a href="announcement.html">Announcements</a>
+    <hr>
 
-</div>
+    <a href="dashboard.html"><button>Dashboard</button></a>
+
+    <a href="student.html"><button>Profile</button></a>
+
+    <a href="timetable.html"><button>Timetable</button></a>
+
+    <a href="attendance.html"><button>Attendance</button></a>
+
+    <a href="calendar.html"><button>Calendar</button></a>
+
+    <a href="subject.html"><button>Subjects</button></a>
+
+    <a href="result.html"><button>Result</button></a>
+
+    <a href="fee.html"><button>Fees</button></a>
+
+    <a href="event.html"><button>Events</button></a>
+
+   
+<!-- Main -->
 
 <div class="main">
 
-    <div class="navbar">
+    <!-- Top Bar -->
 
-        <h1>StudentHub Portal</h1>
+    <div class="topbar">
 
-<button onclick="window.location.href='login.html'">Logout</button>
+        <h1>Welcome to StudentHub Portal</h1>
 
-    </div>
-
-    <div class="content">
-
-        <h2>Welcome, Prince Patel</h2>
-
-        <p>Enrollment No : 25CE086</p>
-
-        <p>Branch : Computer Engineering</p>
-
-        <p>Semester : 3</p>
-
-        <p>Email : prince@example.com</p>
+        <a href="login.html">
+            <button>Log Out</button>
+        </a>
 
     </div>
+
+    <br>
+
+    <h2>Welcome, Prince Patel</h2>
+
+    <br>
+
+    <table border="1" cellpadding="10">
+
+        <tr>
+            <td><b>Enrollment No.</b></td>
+            <td>25CE086</td>
+        </tr>
+
+        <tr>
+            <td><b>Institute</b></td>
+            <td>CSPIT</td>
+        </tr>
+
+        <tr>
+            <td><b>Department</b></td>
+            <td>Computer Engineering</td>
+        </tr>
+
+        <tr>
+            <td><b>Semester</b></td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td><b>Academic Year</b></td>
+            <td>2026-27</td>
+        </tr>
+
+        <tr>
+            <td><b>Email</b></td>
+            <td>25CE086@charusat.edu.in</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <h2>Academic Overview</h2>
+
+    <table border="1" cellpadding="10">
+
+        <tr>
+            <th>Attendance</th>
+            <th>SPI</th>
+            <th>CGPA</th>
+            <th>Fee Status</th>
+        </tr>
+
+        <tr>
+            <td>90%</td>
+            <td>8.75</td>
+            <td>8.42</td>
+            <td>Paid</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <h2>Quick Services</h2>
+
+    <button onclick="location.href='timetable.html'">Timetable</button>
+
+    <button onclick="location.href='attendance.html'">Attendance</button>
+
+    <button onclick="location.href='subject.html'">Subjects</button>
+
+    <button onclick="location.href='result.html'">Result</button>
+
+    <button onclick="location.href='fee.html'">Fees</button>
+
+    <button onclick="location.href='event.html'">Events</button>
+
+    <button onclick="location.href='calendar.html'">Calendar</button>
+
+    
+
+</div>
 
 </div>
 
 </body>
+</html>
