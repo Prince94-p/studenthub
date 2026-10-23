@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:white;
+}
+
+.container{
+    width:95%;
+    margin:20px auto;
+}
+
+.header{
+    width:420px;
+    margin:20px auto;
+    padding:20px;
+    border:2px solid #ccc;
+    border-radius:12px;
+    text-align:center;
+}
+
+.header h1{
+    font-size:30px;
+}
+
+.welcome{
+    width:450px;
+    margin:30px 0 20px 40px;
+    padding:15px;
+    border:2px solid #ccc;
+    border-radius:10px;
+    text-align:center;
+}
+
+.welcome h2{
+    font-size:24px;
+}
+
+.title{
+    width:95%;
+    margin:20px auto;
+    padding:15px;
+    border:2px solid #ccc;
+    border-radius:10px;
+    text-align:center;
+}
+
+.title h2{
+    font-size:24px;
+}
+
+.edit{
+    text-align:right;
+    margin:20px 40px;
+}
+
+.edit button{
+    width:130px;
+    height:40px;
+    font-size:16px;
+}
+
+button{
+    background:white;
+    border:2px solid #bbb;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#f2f2f2;
+}
+
+.content{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin:30px 40px;
+}
+
+.left{
+    width:60%;
+}
+
+.details-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.details-table td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    font-size:18px;
+}
+
+.right{
+    width:35%;
+    display:flex;
+    justify-content:center;
+}
+
+.profile-pic{
+    width:200px;
+    height:200px;
+    border:2px solid #bbb;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    text-align:center;
+}
+
+.bottom{
+    text-align:right;
+    margin:40px;
+}
+
+.bottom button{
+    width:220px;
+    height:50px;
+    font-size:18px;
+}

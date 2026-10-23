@@ -1,0 +1,147 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fc;
+    color: #333;
+}
+
+h1 {
+    margin-top: 35px;
+    color: #1e3a8a;
+}
+
+h2 {
+    color: #2563eb;
+    margin-bottom: 25px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #2563eb;
+    margin: 20px auto;
+}
+
+/* Registration Form */
+
+form {
+    display: inline-block;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+
+fieldset {
+    width: 180px;
+    height: 160px;
+    border: 2px solid #2563eb;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+legend {
+    color: #2563eb;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+input[type="file"] {
+    width: 170px;
+    margin-top: 50px;
+}
+
+/* Input Fields */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+select {
+    width: 280px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.25);
+}
+
+
+input[type="radio"] {
+    margin-right: 5px;
+    accent-color: #2563eb;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 11px 25px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+input[type="reset"] {
+    background-color: #e5e7eb;
+    color: #333;
+}
+
+input[type="reset"]:hover {
+    background-color: #d1d5db;
+}
+
+/* Login Link */
+
+p {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

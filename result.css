@@ -1,0 +1,25 @@
+*{
+margin: 10px;
+padding: 10px;
+ box-sizing:border-box;
+}
+
+.h1{
+font-size: medium;
+color: blanchedalmond;
+
+}
+
+<element class="h2">
+
+Selector Specificity: (0, 1, 0){
+font-size: medium;
+color: blanchedalmond;
+
+}
+<element class="h3">
+Selector Specificity:(0 , 0 , 1){
+font-size: medium;
+color: blanchedalmond;
+
+}
