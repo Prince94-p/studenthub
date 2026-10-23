@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+
+    <center>
+
+        <h1>StudentHub Portal</h1>
+        <hr width="50%">
+
+        <h2>Login</h2>
+
+        <form id="loginForm">
+
+            <table cellpadding="8">
+
+                <tr>
+                    <td><b>Username / Email</b></td>
+                    <td>
+                        <input type="text"
+                               id="loginUser" name="user"
+                               placeholder="Enter Username or Email"
+                               size="30"
+                               required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Password</b></td>
+                    <td>
+                        <input type="password"
+                               id="loginPassword" name="password"
+                               placeholder="Enter Password"
+                               size="30"
+                               required>
+                    </td>
+                </tr>
+
+               
+
+                <tr>
+                    <td colspan="2" align="center">
+                       <input type="submit" value="Login">
+                        <input type="reset" value="Clear">
+                    </td>
+                </tr>
+
+            </table>
+            <p id="loginMessage" style="color:red;"></p>
+        </form>
+
+        <hr width="50%">
+
+        <p>Don't have an account?</p>
+        <a href="register.html">Register Here</a>
+
+    </center>
+
+<script src="login.js"></script>
+</body>
+
+</html>

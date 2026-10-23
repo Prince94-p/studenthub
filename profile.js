@@ -1,0 +1,1 @@
+Promise.all([fetch("profile.json").then(r=>r.json()),fetch("login.json").then(r=>r.json())]).then(([c,d])=>{let raw=localStorage.getItem("studentHubUser"),u=raw?JSON.parse(raw):d.demoUser,rows=document.querySelectorAll(".details-table tr");rows.forEach((tr,i)=>{if(c.keys[i])tr.cells[1].textContent=u[c.keys[i]]??"-"})});

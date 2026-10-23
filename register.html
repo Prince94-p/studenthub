@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudentHub Registration</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+
+<center>
+
+<h1>StudentHub Portal</h1>
+<h2>Register Your Details</h2>
+
+<hr width="70%">
+
+<form id="registerForm">
+
+<table cellpadding="10">
+
+<tr>
+    <td rowspan="12" align="center">
+
+        <fieldset>
+            <legend>Profile Photo</legend>
+
+            <input type="file" accept="image/*">
+
+        </fieldset>
+
+    </td>
+
+    <td>Full Name</td>
+    <td><input type="text" name="fullName" placeholder="Enter Full Name" required></td>
+</tr>
+
+<tr>
+    <td>Email</td>
+    <td><input type="email" name="email" placeholder="Enter Email" required></td>
+</tr>
+
+<tr>
+    <td>Mobile Number</td>
+    <td><input type="tel" name="mobile" placeholder="Enter Mobile Number" required></td>
+</tr>
+
+<tr>
+    <td>Date of Birth</td>
+    <td><input type="date" name="dob"></td>
+</tr>
+
+<tr>
+    <td>Gender</td>
+    <td>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>Branch</td>
+    <td>
+        <select name="branch" required>
+            <option value="">Select Branch</option>
+            <option>Computer Engineering</option>
+            <option>Information Technology</option>
+            <option>Computer Science</option>
+            <option>Electronics & Communication</option>
+            <option>Mechanical Engineering</option>
+            <option>Civil Engineering</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>Profession</td>
+    <td>
+        <select name="profession" required>
+            <option value="">Select Yours</option>
+            <option>Student</option>
+            <option>Faculty</option>
+           
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Semester</td>
+    <td>
+        <select name="semester" required>
+            <option value="">Select Semester</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Enrollment Number</td>
+    <td><input type="text" name="enrollment" placeholder="25CE086" required></td>
+</tr>
+
+<tr>
+    <td>College Name</td>
+    <td><input type="text" name="college" placeholder="CHARUSAT" required></td>
+</tr>
+
+<tr>
+    <td>Password</td>
+    <td><input type="password" name="password" placeholder="Enter Password" required></td>
+</tr>
+
+<tr>
+    <td>Confirm Password</td>
+    <td><input type="password" name="confirmPassword" placeholder="Confirm Password" required></td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+    </td>
+</tr>
+
+</table>
+<p id="registerMessage" style="color:red;"></p>
+</form>
+
+<p>
+Already have an account?
+<a href="login.html">Login Here</a>
+</p>
+
+</center>
+
+<script src="register.js"></script>
+</body>
+</html>

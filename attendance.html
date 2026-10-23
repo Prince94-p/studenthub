@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="attendance.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>CHARUSAT</h1>
+        <h2>Charotar University of Science and Technology</h2>
+        <h3>Faculty of Technology & Engineering</h3>
+        <h2>Student Attendance</h2>
+    </div>
+
+    <div class="semester-card">
+        <span>Semester</span>
+        <strong>3</strong>
+    </div>
+
+    <table class="attendance-table">
+
+        <thead>
+            <tr>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+                <th>Attendance</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>CSUC201</td>
+                <td>Fundamentals of Data Structures & Algorithms</td>
+                <td class="good">95%</td>
+            </tr>
+
+            <tr>
+                <td>ITUC201</td>
+                <td>Fundamentals of Computer Networks</td>
+                <td class="good">90%</td>
+            </tr>
+
+            <tr>
+                <td>CEUE203</td>
+                <td>Object Oriented Programming</td>
+                <td class="good">94%</td>
+            </tr>
+
+            <tr>
+                <td>ITUE203</td>
+                <td>Web Development Framework</td>
+                <td class="good">90%</td>
+            </tr>
+
+            <tr>
+                <td>MSUD203</td>
+                <td>Discrete Mathematics</td>
+                <td class="average">87%</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2"><b>Overall Attendance</b></td>
+                <td class="overall"><b>90%</b></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <br>
+
+    <a href="dashboard.html">
+        <button class="btn">⬅ Return to Dashboard</button>
+    </a>
+
+</div>
+
+<script src="attendance.js"></script>
+</body>
+</html>

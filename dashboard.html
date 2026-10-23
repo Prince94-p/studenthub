@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+
+        <div class="profile">
+            <div class="photo">👤</div>
+            <h3 data-user="name">Prince Patel</h3>
+            <p data-user="enrollment">25CE086</p>
+        </div>
+
+        <nav>
+            <a href="dashboard.html">🏠 Dashboard</a>
+            <a href="student.html">👤 Profile</a>
+            <a href="timetable.html">📅 Timetable</a>
+            <a href="attendance.html">📊 Attendance</a>
+            <a href="subject.html">📖 Subjects</a>
+            <a href="result.html">📝 Result</a>
+            <a href="fee.html">💳 Fees</a>
+            <a href="calendar.html">📆 Calendar</a>
+            <a href="event.html">🎉 Events</a>
+        </nav>
+
+    </aside>
+
+    <main class="content">
+
+        <header class="topbar">
+
+            <h1>Welcome to StudentHub Portal</h1>
+
+            <button class="logout" onclick="logout()">Logout</button>
+
+        </header>
+
+        <section class="card">
+
+            <h2>Welcome, <span data-user="name">Prince Patel</span></h2>
+
+            <div class="details">
+
+                <p><strong>Enrollment :</strong> <span data-user="enrollment">25CE086</span></p>
+                <p><strong>Institute :</strong> <span data-user="college">CSPIT</span></p>
+                <p><strong>Department :</strong> <span data-user="branch">Computer Engineering</span></p>
+                <p><strong>Semester :</strong> <span data-user="semester">3</span></p>
+                <p><strong>Academic Year :</strong> <span data-user="academicYear">2026-27</span></p>
+                <p><strong>Email :</strong> <span data-user="email">25CE086@charusat.edu.in</span></p>
+
+            </div>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Academic Overview</h2>
+
+            <div class="overview">
+
+                <div class="box">
+                    <h3 data-user="attendance">90%</h3>
+                    <p>Attendance</p>
+                </div>
+
+                <div class="box">
+                    <h3 data-user="spi">8.75</h3>
+                    <p>SPI</p>
+                </div>
+
+                <div class="box">
+                    <h3 data-user="cgpa">8.42</h3>
+                    <p>CGPA</p>
+                </div>
+
+                <div class="box">
+                    <h3 data-user="feeStatus">Paid</h3>
+                    <p>Fee Status</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Quick Services</h2>
+
+            <div class="services">
+
+                <button onclick="location.href='timetable.html'">Timetable</button>
+                <button onclick="location.href='attendance.html'">Attendance</button>
+                <button onclick="location.href='subject.html'">Subjects</button>
+                <button onclick="location.href='result.html'">Result</button>
+                <button onclick="location.href='fee.html'">Fees</button>
+                <button onclick="location.href='calendar.html'">Calendar</button>
+                <button onclick="location.href='event.html'">Events</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
