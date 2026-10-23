@@ -1,0 +1,36 @@
+{
+  "academicYears": [
+    "2026-27",
+    "2025-26",
+    "2024-25"
+  ],
+  "faculties": [
+    "Faculty of Technology & Engineering",
+    "Faculty of Pharmacy",
+    "Faculty of Management Studies",
+    "Faculty of Computer Applications"
+  ],
+  "departments": [
+    "Computer Engineering",
+    "Information Technology",
+    "Computer Science & Engineering",
+    "Electronics & Communication",
+    "Mechanical Engineering",
+    "Civil Engineering",
+    "Electrical Engineering"
+  ],
+  "semesters": [
+    "Semester 1",
+    "Semester 2",
+    "Semester 3",
+    "Semester 4",
+    "Semester 5",
+    "Semester 6",
+    "Semester 7",
+    "Semester 8"
+  ],
+  "resultTypes": [
+    "Regular",
+    "Reassessment"
+  ]
+}

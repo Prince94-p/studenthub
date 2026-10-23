@@ -1,0 +1,31 @@
+{
+  "semester": "3",
+  "overall": "90%",
+  "subjects": [
+    {
+      "code": "CSUC201",
+      "name": "Fundamentals of Data Structures & Algorithms",
+      "attendance": "95%"
+    },
+    {
+      "code": "ITUC201",
+      "name": "Fundamentals of Computer Networks",
+      "attendance": "90%"
+    },
+    {
+      "code": "CEUE203",
+      "name": "Object Oriented Programming",
+      "attendance": "94%"
+    },
+    {
+      "code": "ITUE203",
+      "name": "Web Development Framework",
+      "attendance": "90%"
+    },
+    {
+      "code": "MSUD203",
+      "name": "Discrete Mathematics",
+      "attendance": "87%"
+    }
+  ]
+}

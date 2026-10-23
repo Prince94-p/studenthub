@@ -1,0 +1,1 @@
+let subjectData={};fetch("subject.json").then(r=>r.json()).then(d=>subjectData=d);function showSubjects(){let sem=document.getElementById("semester").value,box=document.getElementById("subjectBox");if(!sem||!subjectData[sem]){box.innerHTML="";return}box.innerHTML=`<h3>Subjects</h3><ul>${subjectData[sem].map(s=>`<li>${s}</li>`).join("")}</ul>`}

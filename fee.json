@@ -1,0 +1,18 @@
+{
+  "schedule": [
+    {
+      "term": "1st Term",
+      "payment": "06/07/2026 To 30/07/2026",
+      "lateFrom": "31/07/2026"
+    }
+  ],
+  "note": "Late fees payment will result in late fee fine of Rs. 50/- per day.",
+  "generalFees": {
+    "CSE": "77,500/-",
+    "CSE(AIML)": "77,500/-",
+    "CE": "77,500/-",
+    "IT": "77,500/-",
+    "EC": "66,000/-",
+    "ME/CIVIL/EE": "53,500/-"
+  }
+}

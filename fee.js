@@ -1,0 +1,1 @@
+fetch("fee.json").then(r=>r.json()).then(d=>{let tables=document.querySelectorAll("table");if(tables[0]){let x=d.schedule[0];tables[0].innerHTML=`<tr><th>Term</th><th>Date of Fees Payment</th><th>Late Fees Charges Effective From</th></tr><tr><th>${x.term}</th><td>${x.payment}</td><td>${x.lateFrom}</td></tr>`}});

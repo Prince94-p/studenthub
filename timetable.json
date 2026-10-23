@@ -1,0 +1,81 @@
+{
+  "headers": [
+    "Day / Time",
+    "9:10-10:10",
+    "10:10-11:10",
+    "11:10-12:10",
+    "12:10-1:10",
+    "1:10-2:10",
+    "2:10-2:20",
+    "2:20-3:20",
+    "3:20-4:20"
+  ],
+  "rows": [
+    [
+      "Monday",
+      "WDF(T)",
+      "WDF(T)",
+      "Lunch Break",
+      "FCN(T)",
+      "FDSA(T)",
+      "Short Break",
+      "OOP Lab",
+      "OOP Lab"
+    ],
+    [
+      "Tuesday",
+      "WDF Lab",
+      "WDF Lab",
+      "Lunch Break",
+      "WDF(T)",
+      "OOP(T)",
+      "Short Break",
+      "HS",
+      "HS"
+    ],
+    [
+      "Wednesday",
+      "FCN Lab",
+      "FCN Lab",
+      "Lunch Break",
+      "Student Counselling",
+      "Student Counselling",
+      "Short Break",
+      "Maths",
+      "FCN(T)"
+    ],
+    [
+      "Thursday",
+      "ITUC201",
+      "CSUC201",
+      "Lunch Break",
+      "ITUE203",
+      "MSUD203",
+      "Short Break",
+      "WDF Lab",
+      "WDF Lab"
+    ],
+    [
+      "Friday",
+      "CSUC201",
+      "MSUD203",
+      "Lunch Break",
+      "CEUE203",
+      "ITUC201",
+      "Short Break",
+      "FDSA Lab",
+      "FDSA Lab"
+    ],
+    [
+      "Saturday",
+      "University Elective-1",
+      "University Elective-1",
+      "Lunch Break",
+      "University Elective-1",
+      "University Elective-1",
+      "Short Break",
+      "Skill Enhancement",
+      "Skill Enhancement"
+    ]
+  ]
+}

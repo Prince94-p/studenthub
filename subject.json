@@ -1,0 +1,40 @@
+{
+  "sem1": [
+    "Engineering Mathematics-I",
+    "Engineering Physics",
+    "Basic Electrical Engineering",
+    "Programming for Problem Solving"
+  ],
+  "sem2": [
+    "Engineering Mathematics-II",
+    "Data Structures",
+    "Digital Electronics",
+    "Environmental Studies"
+  ],
+  "sem3": [
+    "Fundamentals of Data Structures & Algorithms",
+    "Fundamentals of Computer Networks",
+    "Object Oriented Programming",
+    "Web Development Framework",
+    "Discrete Mathematics"
+  ],
+  "sem4": [
+    "Database Management Systems",
+    "Software Engineering",
+    "Computer Organization & Architecture",
+    "Design & Analysis of Algorithms",
+    "Foundation of Data Science & Analytics"
+  ],
+  "sem5": [
+    "Operating Systems",
+    "Computer Graphics",
+    "Artificial Intelligence",
+    "Web Technologies"
+  ],
+  "sem6": [
+    "Machine Learning",
+    "Cloud Computing",
+    "Internet of Things",
+    "Cyber Security"
+  ]
+}

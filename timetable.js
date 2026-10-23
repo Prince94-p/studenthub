@@ -1,0 +1,1 @@
+fetch("timetable.json").then(r=>r.json()).then(d=>{let t=document.querySelector("table");t.innerHTML=`<thead><tr>${d.headers.map(x=>`<th>${x}</th>`).join("")}</tr></thead><tbody>${d.rows.map(r=>`<tr>${r.map((x,i)=>i?`<td>${x}</td>`:`<th>${x}</th>`).join("")}</tr>`).join("")}</tbody>`});

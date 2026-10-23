@@ -1,0 +1,33 @@
+{
+  "title": "Welcome to StudentHub Portal",
+  "quickServices": [
+    {
+      "label": "Timetable",
+      "url": "timetable.html"
+    },
+    {
+      "label": "Attendance",
+      "url": "attendance.html"
+    },
+    {
+      "label": "Subjects",
+      "url": "subject.html"
+    },
+    {
+      "label": "Result",
+      "url": "result.html"
+    },
+    {
+      "label": "Fees",
+      "url": "fee.html"
+    },
+    {
+      "label": "Calendar",
+      "url": "calendar.html"
+    },
+    {
+      "label": "Events",
+      "url": "event.html"
+    }
+  ]
+}

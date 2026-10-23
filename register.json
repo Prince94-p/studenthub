@@ -1,0 +1,9 @@
+{
+  "academicYear": "2026-27",
+  "defaults": {
+    "attendance": "0%",
+    "spi": "-",
+    "cgpa": "-",
+    "feeStatus": "Pending"
+  }
+}

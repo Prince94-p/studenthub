@@ -1,0 +1,1 @@
+fetch("calendar.json").then(r=>r.json()).then(d=>{let t=document.querySelector("table");t.innerHTML=`<tr><th>Month</th><th>Activity</th></tr>${d.activities.map(x=>`<tr><td>${x[0]}</td><td>${x[1]}</td></tr>`).join("")}`});

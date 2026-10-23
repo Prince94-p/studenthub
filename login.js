@@ -1,0 +1,3 @@
+const STORAGE_KEY="studentHubUser",SESSION_KEY="studentHubLoggedIn";
+async function demo(){return (await (await fetch("login.json")).json()).demoUser} function stored(){let x=localStorage.getItem(STORAGE_KEY);return x?JSON.parse(x):null}
+document.getElementById("loginForm").addEventListener("submit",async e=>{e.preventDefault();let u=stored()||await demo(),id=loginUser.value.trim(),pw=loginPassword.value;if((id.toLowerCase()==u.email.toLowerCase()||id.toLowerCase()==u.enrollment.toLowerCase())&&pw===u.password){sessionStorage.setItem(SESSION_KEY,"true");location.href="dashboard.html"}else loginMessage.textContent="Invalid email/enrollment or password."});

@@ -1,0 +1,20 @@
+{
+  "demoUser": {
+    "fullName": "Prince Patel",
+    "email": "25CE086@charusat.edu.in",
+    "password": "student123",
+    "enrollment": "25CE086",
+    "college": "CSPIT",
+    "branch": "Computer Engineering",
+    "semester": "3",
+    "academicYear": "2026-27",
+    "attendance": "90%",
+    "spi": "7.23",
+    "cgpa": "7.00",
+    "feeStatus": "Paid",
+    "mobile": "9876543210",
+    "dob": "15-08-2008",
+    "gender": "Male",
+    "profession": "Student"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "labels": [
+    "Student Name",
+    "Enrollment No",
+    "Branch",
+    "Email",
+    "Mobile No",
+    "Date of Birth",
+    "Gender",
+    "Profession",
+    "Semester",
+    "College"
+  ],
+  "keys": [
+    "fullName",
+    "enrollment",
+    "branch",
+    "email",
+    "mobile",
+    "dob",
+    "gender",
+    "profession",
+    "semester",
+    "college"
+  ]
+}
